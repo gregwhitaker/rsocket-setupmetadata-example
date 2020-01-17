@@ -1,4 +1,3 @@
 rootProject.name = 'rsocket-setupmetadata-example'
-include 'count-service'
-include 'count-client'
-
+include 'hello-service'
+include 'hello-client'

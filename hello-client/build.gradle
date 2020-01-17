@@ -3,7 +3,7 @@ plugins {
     id "application"
 }
 
-mainClassName = 'example.count.service.CountService'
+mainClassName = 'example.hello.client.HelloClient'
 sourceCompatibility = 1.8
 
 dependencies {
