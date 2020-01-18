@@ -15,6 +15,9 @@ import org.slf4j.LoggerFactory;
 
 import java.util.UUID;
 
+/**
+ * Client that requests hello messages from the hello-service.
+ */
 public class HelloClient {
     private static final Logger LOG = LoggerFactory.getLogger(HelloClient.class);
 
