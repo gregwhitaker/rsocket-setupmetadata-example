@@ -2,7 +2,7 @@
 An example of sending metadata on connection setup with [RSocket](http://rsocket.io).
 
 In this example the `hello-client` sends its "clientId" when setting up a connection to the `hello-service`. When the client
-requests a hello message from the service it returns the message along with the client's client identifier that it set during
+requests a hello message from the service it returns the message along with the client's identifier that it set during
 the connection setup.
 
 ## Building the Example
