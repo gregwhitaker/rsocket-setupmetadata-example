@@ -37,6 +37,8 @@ public class HelloService {
                         final Map<String, Object> connMetadata = parseMetadata(setup);
                         final String clientId = (String) connMetadata.getOrDefault("messaging/x.clientId", "UNKNOWN");
 
+                        LOG.info("Hello client connected: {}", clientId);
+
                         return Mono.just(new AbstractRSocket() {
                             @Override
                             public Mono<Payload> requestResponse(Payload payload) {
