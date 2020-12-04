@@ -1,4 +1,6 @@
 # rsocket-setupmetadata-example
+![Build](https://github.com/gregwhitaker/rsocket-setupmetadata-example/workflows/Build/badge.svg)
+
 An example of sending metadata on connection setup with [RSocket](http://rsocket.io).
 
 In this example the `hello-client` sends its "clientId" when setting up a connection to the `hello-service`. When the client
